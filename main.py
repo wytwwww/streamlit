@@ -12,7 +12,10 @@ st.set_page_config(page_title="医药公司人物信息查询", layout="wide")
 st.title("医药公司人物信息查询")
 def progress(percentage):
     my_bar.progress(percentage)
+    
 
+st.write()
+st.write('###### 点击左上角小箭头，在侧边栏输入网址！')
 st.write('##### 请等待进度条的加载完！')
 my_bar=st.progress(0)#进度条初始
 url = st.sidebar.text_input('请输入爬取网址url，然后按回车键','')

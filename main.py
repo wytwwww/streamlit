@@ -67,7 +67,7 @@ else:
 
 try :
     if link:
-        st.write(link)
+        st.write("请耐心等待!")
 except:
     pass
 

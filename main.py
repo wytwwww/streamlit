@@ -14,7 +14,8 @@ def progress(percentage):
     my_bar.progress(percentage)
     
 
-st.write()
+st.write('  ')
+st.write('  ')
 st.write('###### 点击左上角小箭头，在侧边栏输入网址！')
 st.write('##### 请等待进度条的加载完！')
 my_bar=st.progress(0)#进度条初始
